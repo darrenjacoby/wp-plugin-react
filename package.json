@@ -1,0 +1,34 @@
+{
+  "name": "union",
+  "version": "0.0.0",
+  "description": "WordPress admin styles in a customisable tailwind config for plugin authors.",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --env=production --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soberwp/union.git"
+  },
+  "keywords": [
+    "wordpress",
+    "wp-admin"
+  ],
+  "author": "Darren Jacoby",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soberwp/union/issues"
+  },
+  "homepage": "https://github.com/soberwp/union#readme",
+  "devDependencies": {
+    "laravel-mix": "6.0.25",
+    "laravel-mix-stylelint": "^0.2.0",
+    "laravel-mix-tailwind": "^0.1.2",
+    "postcss": "^8.3.6",
+    "postcss-import": "^14.0.2",
+    "postcss-preset-env": "^6.7.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-webpack-plugin": "^3.0.1",
+    "tailwindcss": "^2.2.7"
+  }
+}
