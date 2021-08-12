@@ -4,10 +4,6 @@ module.exports = {
     './resources/views/**/*.php',
   ],
   /**
-   * Plugin/class prefix to avoid conflicts.
-   */
-  // prefix: '-',
-  /**
    * WordPress wp-admin theme.
    */
   theme: {
